@@ -8,6 +8,16 @@
 
 #define CMA_ALLOC _IOWR('Z', 0, uint32_t)
 
+int __aeabi_idiv0(int return_value)
+{
+    return 0;
+}   
+long long __aeabi_ldiv0(long long return_value)
+{
+    return 0;
+}
+
+
 int main()
 {
   int fd, i;
