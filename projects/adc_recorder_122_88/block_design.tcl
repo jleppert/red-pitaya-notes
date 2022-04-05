@@ -136,4 +136,4 @@ cell pavel-demin:user:axis_ram_writer writer_0 {
 
 addr 0x40000000 4K cfg_0/S_AXI /ps_0/M_AXI_GP0
 
-assign_bd_address [get_bd_addr_segs ps_0/S_AXI_HP0/HP0_DDR_LOWOCM]
+assign_bd_address [get_bd_addr_segs ps_0/S_AXI_ACP/ACP_DDR_LOWOCM]
